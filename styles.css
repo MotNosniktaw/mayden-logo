@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(250, 200, 200, 1);
+
+}
+
+
+#logo {
+    width: 1000px;
+    border: red solid 1px;
+}
+
+.square {
+    width: 100px;
+    height:100px;
+    background-color: aqua;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 90px solid #F27324;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.donut {
+    height: 40px;
+    width: 40px;
+    border: 30px solid aqua;
+    border-radius: 50%;
+}
+
+.circle-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 80px;
+    left: 105px;
+}
+
+.trapezoid {
+    border-bottom: 60px solid #295074;
+    height: 0;
+    width: 120px;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    position: absolute;
+    bottom: 24px;
+    left: 60px;
+}
+
+.turq-segment {
+    height: 100px;
+    width: 300px;
+    background-color: #2A8FB0;
+    position: absolute;
+    top: 40px;
+    right: -120px;
+    transform: rotate(63deg);
+
+}
+
+.green-segment {
+    height: 100px;
+    width: 300px;
+    background-color: #94BA66;
+    position: absolute;
+    top: 40px;
+    left: -120px;
+    transform: rotate(-63deg);
+}
+
+.blue-segment {
+    height: 25px;
+    width: 300px;
+    background-color: #295074;
+    position: absolute;
+   bottom:0px
+}
+
+.circle-corner {
+    position: relative;
+    width: 30px;
+    height: 50px;
+    top: -50%;
+    left: -50%;
+    overflow: hidden;
+    border: 15px solid #94BA66;
+}
+
+.circle-corner div{
+    overflow: hidden;
+    position: relative;
+}
+
+.circle-corner div:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 7.5px solid tomato;
+    top: -50%;
+    left: -50%;
+}
+
+.circle-corner::after {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+}
