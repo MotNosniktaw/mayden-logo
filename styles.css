@@ -126,3 +126,10 @@ body {
     height: 200%;
     border-radius: 50%;
 }
+
+.green-corner {
+    border: #94BA66 20px solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
