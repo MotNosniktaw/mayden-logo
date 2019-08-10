@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(250, 200, 200, 1);
 
 }
 
@@ -125,4 +124,21 @@ body {
     width: 200%;
     height: 200%;
     border-radius: 50%;
+}
+
+.green-corner {
+    border: #94BA66 20px solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 65px;
+}
+
+.corner-container {
+    width: 50px;
+    height: 45px;
+    overflow: hidden;
+    position: absolute;
+    top: -20px;
+    left: 95px;
+
 }
